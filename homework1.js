@@ -41,10 +41,9 @@ let Number2=prompt("Greq tiv?")
 if(Number1 > Number2){
 	if(Number1 % Number2 == 0 ){
 		alert("1")
-	}else{
-		alert("0")
-	}
-}else {
+4
+
+
 	if(Number2 % Number1 == 0) {
 	alert("1")
     }else {
