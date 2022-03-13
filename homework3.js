@@ -31,7 +31,7 @@ function IsPowerOfTwo(tiv) {
     if(tiv == 0) return false
    if(tiv == 2 || tiv == 1) return true
    if(tiv % 2 == 0) {
-     return  myFunction(tiv / 2)
+     return  IsPowerOfTwo(tiv / 2)
    } else {
        return false  }
 }
