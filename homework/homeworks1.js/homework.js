@@ -36,12 +36,12 @@ arr1=result.map(elem=>elem*result.length);
 
 
 //4
-function sumDig(velue){
+function sumDig(value){
 	let sum=0;
-	while(velue!=0){
+	while(value!=0){
          
-         sum+= velue % 10;
-        velue = Math.floor(velue / 10);
+         sum+= value % 10;
+        value = Math.floor(value / 10);
 }
       return sum;
 }
